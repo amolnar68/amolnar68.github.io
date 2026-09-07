@@ -1,0 +1,25 @@
+:root{--ink:#f4f7fb;--navy:#050608;--paper:#050608;--cyan:#52c7ff;--blue:#2378ff;--violet:#2378ff;--amber:#52c7ff;--muted:#9ba7b5;--line:#262b33}
+body{background:#050608;color:#f4f7fb}
+.site-header{background:rgba(3,4,5,.96);border-bottom-color:#252a31;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.brand span{background:#f5f7fa;color:#050608;box-shadow:none}
+.hero{background:radial-gradient(circle at 82% 22%,rgba(35,120,255,.16),transparent 30%),linear-gradient(135deg,#030405,#080a0d 58%,#05080d)}
+.hero:after{height:2px;background:linear-gradient(90deg,transparent,#2378ff,#52c7ff,transparent)}
+h1 em{background:none;color:#fff;-webkit-text-fill-color:initial;text-decoration:underline;text-decoration-color:#2378ff;text-decoration-thickness:5px;text-underline-offset:10px}
+.button.primary{background:#f4f7fb;color:#050608;box-shadow:none}.button.primary:hover{background:#52c7ff}
+.signal-card{background:#0b0d10;border-color:#303640;box-shadow:14px 14px 0 #121722,0 28px 65px rgba(0,0,0,.5)}
+.proof-strip{background:#0a0b0d;color:#aeb7c2;border-bottom:1px solid #252a31}
+.section-heading>p:last-child,.project p,.project li,.timeline p,.timeline h3 span{color:#9ba7b5}
+.project{background:#0b0d10;border-color:#262b33;border-top-width:3px;box-shadow:0 16px 36px rgba(0,0,0,.28)}
+.project:hover{box-shadow:0 24px 50px rgba(0,0,0,.45)}
+.project.featured{background:linear-gradient(145deg,#0c1016,#08090b);border-color:#37404b;border-top:3px solid #52c7ff}
+.project:nth-child(3){border-top-color:#6d7682}.project:nth-child(4){border-top-color:#52c7ff}
+.project .tag,.timeline .date{color:#52c7ff}.big-result{color:#52c7ff}.big-result span{color:#6d7682}
+.split{border-top-color:#262b33}.timeline article{border-left-color:#343a43}.timeline article:before{border-color:#050608;box-shadow:0 0 0 3px rgba(35,120,255,.18)}
+.skills-section{background:#090b0e;border-top:1px solid #252a31;border-bottom:1px solid #252a31}
+.skill-grid article{background:#101216;border-color:#2b3038;border-top-width:2px;box-shadow:0 18px 35px rgba(0,0,0,.22)}
+.skill-grid article:nth-child(3){border-top-color:#727b87}.skill-grid article:nth-child(4){border-top-color:#52c7ff}
+.toolbox span{background:#0c1015;border-color:#34404d;color:#ccd4de}
+.leadership-quote{background:#f2f4f7;color:#080a0d;border-top:5px solid #2378ff}
+.leadership-quote:after{color:rgba(0,0,0,.05)}
+.contact{background:radial-gradient(circle at 50% 120%,rgba(35,120,255,.14),transparent 42%),#030405}
+footer{background:#000;color:#788492;border-top:1px solid #20242a}
